@@ -1,0 +1,6 @@
+[submodule "SVF-Python"]
+	path = SVF-Python
+	url = https://github.com/SVF-tools/SVF-Python.git
+[submodule "SVF"]
+	path = SVF
+	url = https://github.com/SVF-tools/SVF.git

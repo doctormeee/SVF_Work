@@ -1,0 +1,12 @@
+sudo apt-get install zlib1g-dev unzip cmake gcc g++ nodejs libtinfo5 python3
+npm i --silent svf-lib --prefix /mnt/e/UNSW/MPhil/Work （npm会直接下载到node_modules里面）
+git clone https://github.com/SVF-tools/SVF-Python
+cd node_modules/svf-lib/
+./llvm_install.sh
+cd ../../
+source ./env.sh （这里用我改过之后的env.sh，原先里面的SVF path有错）
+cmake . && make
+
+Example running:
+clang -S -c -g -fno-discard-value-names -emit-llvm example.c -o example.ll
+python3 ./src/svfpy/svf-ex.py example.ll

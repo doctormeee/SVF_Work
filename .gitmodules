@@ -4,3 +4,6 @@
 [submodule "SVF"]
 	path = SVF
 	url = https://github.com/SVF-tools/SVF.git
+[submodule "SVF-Python-Mine"]
+	path= SVF-Python-Mine
+	url = https://github.com/doctormeee/SVF-Python-Mine.git

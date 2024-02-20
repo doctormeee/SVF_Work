@@ -4,7 +4,11 @@ git clone https://github.com/SVF-tools/SVF-Python
 cd node_modules/svf-lib/
 ./llvm_install.sh
 cd ../../
+cd SVF-Python
 source ./env.sh （这里用我改过之后的env.sh，原先里面的SVF path有错）
+	注意：上面这步要把env.sh把从containing Windows-style line endings (CRLF, Carriage Return + Line Feed), which are not compatible with Unix/Linux-style line endings (LF, Line Feed)，转变成Unix/Linux-style line endings (LF)
+	sudo apt-get install dos2unix
+	dos2unix env.sh
 cmake . && make
 
 Example running:

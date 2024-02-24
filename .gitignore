@@ -1,5 +1,11 @@
 node_modules/
 node_modules_SVF/
+node_modules_SVF2/
 SVF/
 SVF-example/
 SVF-Python/
+cmake-3.23.2/
+cmake-3.26.0/
+cmake-3.28.3/
+pybind11/
+

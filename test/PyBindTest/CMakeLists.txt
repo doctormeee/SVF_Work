@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(example_project)
 # set(PYBIND11_FINDPYTHON True)
-find_package(python3 REQUIRED)
+# find_package(python3 REQUIRED)
 
 
 add_subdirectory(pybind11)
